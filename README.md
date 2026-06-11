@@ -17,5 +17,14 @@ A lightweight CLI utility built in Python to download YouTube playlists and conv
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/maplelattte/youplay.git](https://github.com/maplelattte/youplay.git)
+   git clone https://github.com/maplelattte/youplay.git
    cd youplay
+2. **Configuration**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate.fish  # For Fish shell
+   pip install -r requirements.txt #For installing the prerequisites
+3. **Finally using it**
+   ```bash
+   cd src
+   python downloader.py --url "YOUR_PLAYLIST_URL"
